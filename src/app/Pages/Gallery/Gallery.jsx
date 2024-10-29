@@ -20,11 +20,11 @@ const Gallery = () => {
     ]
 
   return (
-    <div className='Gallery bg-gray-300 text-black h-screen grid items-center'>
+    <div className='Gallery bg-gray-300 text-black grid items-center'>
         <h1 className='text-[200px] font-extrabold'>Gallery</h1>
-        <div className="gallery-container grid grid-cols-3 justify-center items-center">
-            {cards.map((card) => (
-                <Card title={card.title} image={card.image}/>
+        <div className="gallery-container grid grid-cols-1 md:grid-cols-3 justify-center items-center gap-4 p-4">
+            {cards.map((card,index) => (
+                <Card key={index} title={card.title} image={card.image}/>
             ))}
         </div>
     </div>

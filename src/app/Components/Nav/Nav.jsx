@@ -25,8 +25,8 @@ const Nav = () => {
     <nav className='Home bg-gray-300 text-black grid items-center grid-cols-2 p-4 hover:bg-orange-700'>
         <h1 className='text-2xl font-extrabold'>KAT</h1>
         <ul className="navLinks flex gap-4">
-           {navList.map((link) => (
-            <Link className='hover:animate-pulse' href={link.href}>{link.name}</Link>
+           {navList.map((link,index) => (
+            <Link key={index} className='hover:animate-pulse' href={link.href}>{link.name}</Link>
            ))}
         </ul>
     </nav>      
