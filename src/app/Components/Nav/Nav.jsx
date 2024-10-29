@@ -1,10 +1,35 @@
+import Link from 'next/link';
 import React from 'react'
 
 const Nav = () => {
+
+    const navList = [
+        {
+            name: "Home",
+            href: "/"
+        },
+        {
+            name: "Gallery",
+            href: "/"
+        },
+        {
+            name: "About",
+            href: "/"
+        },
+        {
+            name: "Contact",
+            href: "/"
+        }
+    ]
   return (
-    <div className='Home bg-gray-300 text-black h-screen grid items-center'>
-        <h1 className='title font-semibold text-[200px]'>Nav</h1>
-    </div>      
+    <nav className='Home bg-gray-300 text-black grid items-center grid-cols-2 p-4 hover:bg-orange-700'>
+        <h1 className='text-2xl font-extrabold'>KAT</h1>
+        <ul className="navLinks flex gap-4">
+           {navList.map((link) => (
+            <Link className='hover:animate-pulse' href={link.href}>{link.name}</Link>
+           ))}
+        </ul>
+    </nav>      
   )
 }
 
