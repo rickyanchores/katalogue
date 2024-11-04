@@ -6,15 +6,15 @@ const Gallery = () => {
 
     let cards = [
         {
-            image: "https://images.unsplash.com/photo-1452878569550-39e3d2e630ea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0Nzg3MDV8MHwxfHNlYXJjaHw1fHx3cmlzdCUyMHdhdGNofGVufDB8fHx8MTczMDIwNjc1M3ww&ixlib=rb-4.0.3&q=80&w=1080",
+            image: "https://images.unsplash.com/photo-1680026319202-fcb822e0ab91?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0Nzg3MDV8MHwxfHNlYXJjaHw0fHxkYXJrJTIwYWJzdHJhY3R8ZW58MHx8fHwxNzMwNzE3NjgyfDA&ixlib=rb-4.0.3&q=80&w=1080",
             title: "Title"
         },
         {
-            image: "https://images.unsplash.com/photo-1452878569550-39e3d2e630ea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0Nzg3MDV8MHwxfHNlYXJjaHw1fHx3cmlzdCUyMHdhdGNofGVufDB8fHx8MTczMDIwNjc1M3ww&ixlib=rb-4.0.3&q=80&w=1080",
+            image: "https://images.unsplash.com/photo-1680026319202-fcb822e0ab91?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0Nzg3MDV8MHwxfHNlYXJjaHw0fHxkYXJrJTIwYWJzdHJhY3R8ZW58MHx8fHwxNzMwNzE3NjgyfDA&ixlib=rb-4.0.3&q=80&w=1080",
             title: "Title"
         },
         {
-            image: "https://images.unsplash.com/photo-1452878569550-39e3d2e630ea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0Nzg3MDV8MHwxfHNlYXJjaHw1fHx3cmlzdCUyMHdhdGNofGVufDB8fHx8MTczMDIwNjc1M3ww&ixlib=rb-4.0.3&q=80&w=1080",
+            image: "https://images.unsplash.com/photo-1680026319202-fcb822e0ab91?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0Nzg3MDV8MHwxfHNlYXJjaHw0fHxkYXJrJTIwYWJzdHJhY3R8ZW58MHx8fHwxNzMwNzE3NjgyfDA&ixlib=rb-4.0.3&q=80&w=1080",
             title: "Title"
         }
     ]
