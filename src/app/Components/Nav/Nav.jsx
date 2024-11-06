@@ -6,23 +6,23 @@ const Nav = () => {
     const navList = [
         {
             name: "Home",
-            href: "/"
+            href: "#"
         },
         {
             name: "Gallery",
-            href: "/"
+            href: "#gallery"
         },
         {
             name: "About",
-            href: "/"
+            href: "#about"
         },
         {
             name: "Contact",
-            href: "/"
+            href: "#contact"
         }
     ]
   return (
-    <nav className='Home bg-gray-300 text-black grid items-center grid-cols-2 p-4'>
+    <nav className='Nav fixed w-full bg-gray-300 text-black grid items-center grid-cols-2 p-4'>
         <h1 className='text-2xl font-extrabold'>KAT</h1>
         <ul className="navLinks flex gap-4">
            {navList.map((link,index) => (

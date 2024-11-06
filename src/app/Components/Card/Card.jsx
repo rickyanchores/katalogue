@@ -5,7 +5,7 @@ const Card = ({title,image}) => {
     <div className="Card">
         <img className='w-[500px]' src={image} alt="image" />
         <div className="description">
-            <p className='text-2xl font-bold'>{title}</p>
+            <h2 className='text-2xl font-bold'>{title}</h2>
         </div>
     </div>
   )
