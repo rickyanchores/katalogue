@@ -22,11 +22,11 @@ const Nav = () => {
         }
     ]
   return (
-    <nav className='Nav fixed w-full bg-gray-300 text-black grid items-center grid-cols-2 p-4'>
+    <nav className='Nav fixed w-full bg-black text-white grid items-center grid-cols-2 p-4'>
         <h1 className='text-2xl font-extrabold'>KAT</h1>
-        <ul className="navLinks flex gap-4">
+        <ul className="navLinks flex font-bold gap-4 ">
            {navList.map((link,index) => (
-            <Link key={index} className='hover:animate-pulse' href={link.href}>{link.name}</Link>
+            <Link key={index} className='hover:animate-pulse hover:text-orange-600' href={link.href}>{link.name}</Link>
            ))}
         </ul>
     </nav>      
