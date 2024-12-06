@@ -8,6 +8,7 @@ import About from './Pages/About/About';
 import Contact from './Pages/Contact/Contact';
 import Footer from './Pages/Footer/Footer';
 import Test from './API/test';
+import GridGallery from './Pages/GridGallery/GridGallery';
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <Nav />
       <Home />
       <Gallery />
+      <GridGallery />
       <About />
       <Contact />
       <Footer />
